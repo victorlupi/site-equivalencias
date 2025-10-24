@@ -1,0 +1,238 @@
+[00:00:01.677] Server  LOG      ✓ Ready in 1003ms
+[00:00:07.300] Server  LOG      ○ Compiling / ...
+[00:00:08.062] Server  ERROR    ⨯ ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /workspaces/site-equivalencias/app/globals.css:1:1: Package path ./animate is not exported from package /workspaces/site-equivalencias/node_modules/tailwindcss (see exports field in /workspaces/site-equivalencias/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/workspaces/site-equivalencias/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:00:12.290] Browser ERROR   uncaughtError: Error: ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /workspaces/site-equivalencias/app/globals.css:1:1: Package path ./animate is not exported from package /workspaces/site-equivalencias/node_modules/tailwindcss (see exports field in /workspaces/site-equivalencias/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/workspaces/site-equivalencias/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:00:12.396] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /workspaces/site-equivalencias/app/globals.css:1:1: Package path ./animate is not exported from package /workspaces/site-equivalencias/node_modules/tailwindcss (see exports field in /workspaces/site-equivalencias/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/workspaces/site-equivalencias/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:00:12.633] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /workspaces/site-equivalencias/app/globals.css:1:1: Package path ./animate is not exported from package /workspaces/site-equivalencias/node_modules/tailwindcss (see exports field in /workspaces/site-equivalencias/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/workspaces/site-equivalencias/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:00:22.525] Server  LOG      ✓ Compiled in 637ms
+[00:00:25.855] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:32.012] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:03.803] Server  LOG      ✓ Compiled in 23ms
+[00:01:16.844] Server  LOG      ✓ Compiled in 10ms
+[00:01:22.962] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:26.206] Server  LOG      ✓ Compiled in 7ms
+[00:01:40.390] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:47.150] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:53.920] Server  LOG      ✓ Compiled in 36ms
+[00:01:54.753] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /workspaces/site-equivalencias/app/globals.css:2:1: At-rule without name
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unnamedAtrule (turbopack:///[project]/node_modules/postcss/lib/parser.js:603:22)]
+    [at Parser.atrule (turbopack:///[project]/node_modules/postcss/lib/parser.js:40:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:464:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:01:57.751] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /workspaces/site-equivalencias/app/globals.css:1:1: Package path ./animate is not exported from package /workspaces/site-equivalencias/node_modules/tailwindcss (see exports field in /workspaces/site-equivalencias/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/workspaces/site-equivalencias/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:02:00.756] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /workspaces/site-equivalencias/app/globals.css:1:1: Package path ./animate is not exported from package /workspaces/site-equivalencias/node_modules/tailwindcss (see exports field in /workspaces/site-equivalencias/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/workspaces/site-equivalencias/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:02:02.762] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /workspaces/site-equivalencias/app/globals.css:1:1: Package path ./animate is not exported from package /workspaces/site-equivalencias/node_modules/tailwindcss (see exports field in /workspaces/site-equivalencias/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/workspaces/site-equivalencias/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:02:02.762] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /workspaces/site-equivalencias/app/globals.css:1:1: Package path ./animate is not exported from package /workspaces/site-equivalencias/node_modules/tailwindcss (see exports field in /workspaces/site-equivalencias/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/workspaces/site-equivalencias/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:02:08.404] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /workspaces/site-equivalencias/app/globals.css:1:1: Package path ./animate is not exported from package /workspaces/site-equivalencias/node_modules/tailwindcss (see exports field in /workspaces/site-equivalencias/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/workspaces/site-equivalencias/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:02:09.488] Server  ERROR    ⨯ ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /workspaces/site-equivalencias/app/globals.css:1:1: Package path ./animate is not exported from package /workspaces/site-equivalencias/node_modules/tailwindcss (see exports field in /workspaces/site-equivalencias/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/workspaces/site-equivalencias/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:02:11.333] Browser ERROR   uncaughtError: Error: ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /workspaces/site-equivalencias/app/globals.css:1:1: Package path ./animate is not exported from package /workspaces/site-equivalencias/node_modules/tailwindcss (see exports field in /workspaces/site-equivalencias/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/workspaces/site-equivalencias/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:02:11.442] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /workspaces/site-equivalencias/app/globals.css:1:1: Package path ./animate is not exported from package /workspaces/site-equivalencias/node_modules/tailwindcss (see exports field in /workspaces/site-equivalencias/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/workspaces/site-equivalencias/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:02:11.625] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /workspaces/site-equivalencias/app/globals.css:1:1: Package path ./animate is not exported from package /workspaces/site-equivalencias/node_modules/tailwindcss (see exports field in /workspaces/site-equivalencias/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/workspaces/site-equivalencias/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:02:15.118] Server  LOG      ✓ Compiled in 639ms
+[00:02:17.243] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:06.897] Server  LOG      ✓ Compiled in 219ms
+[00:03:09.282] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:29.002] Server  LOG      ✓ Compiled in 88ms
